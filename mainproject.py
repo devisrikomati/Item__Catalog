@@ -237,7 +237,7 @@ def clothesJSON(shoppingmall_id, details_id):
 
 @app.route('/shoppingmall/JSON')
 def shoppingmallsJSON():
-    shoppingmalls = session.query(shoppingmall).all()
+    shoppingmalls = session.query(Shoppingmall).all()
     return jsonify(shoppingmalls=[r.serialize for r in shoppingmalls])
 # Show all shoppingmalls
 
