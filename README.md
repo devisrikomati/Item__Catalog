@@ -9,7 +9,7 @@
     Oauth2client
     sqlalchemy
 #### way of running
-    Activate flask: flask-env/Scripts/activate
+    Activate flask: flask-env\Scripts\activate
     python database_setup.py to get the database.
     python clothes.py to get the data file.
     python mainproject.py to final output. 
